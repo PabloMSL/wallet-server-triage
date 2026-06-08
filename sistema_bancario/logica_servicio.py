@@ -11,6 +11,7 @@ class WalletService:
     @staticmethod
     def transfer(origin_id, destiny_id, amount):
         # Validación Estricta de Tipos para evitar caracteres extraños o desbordamientos
+        print(f"--> ¡ENTRÓ UNA PETICIÓN! Monto recibido en el código: {amount}")
         try:
             amount = float(amount)
         except (ValueError, TypeError):

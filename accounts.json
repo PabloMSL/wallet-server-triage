@@ -1,24 +1,94 @@
 {
     "ACC-001": {
         "titular": "Carlos Mendoza",
-        "saldo": 550000.0,
+        "saldo": 5655006.0,
         "estado": "ACTIVA",
         "historial": [
             {
                 "tipo": "DEBITO",
                 "monto": -50000,
                 "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -50000,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -50000,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -5000,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -5000000,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -2,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -2,
+                "target": "ACC-002"
+            },
+            {
+                "tipo": "DEBITO",
+                "monto": -2,
+                "target": "ACC-002"
             }
         ]
     },
     "ACC-002": {
         "titular": "Ana Gomez",
-        "saldo": -38000.0,
+        "saldo": -5143006.0,
         "estado": "ACTIVA",
         "historial": [
             {
                 "tipo": "CREDITO",
                 "monto": -50000,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -50000,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -50000,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -5000,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -5000000,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -2,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -2,
+                "target": "ACC-001"
+            },
+            {
+                "tipo": "CREDITO",
+                "monto": -2,
                 "target": "ACC-001"
             }
         ]
