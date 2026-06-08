@@ -1,0 +1,20 @@
+
+# Entornos 
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos temporales 
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del sistema operativo u herramientas locales
+.DS_Store
+.idea/
+.vscode/
+
+# Archivo de base de datos local 
+data/cuentas.json
