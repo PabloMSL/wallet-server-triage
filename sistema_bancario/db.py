@@ -2,7 +2,7 @@ import json
 import os
 import threading
 
-DATA_FILE = "data/cuentas.json"
+DATA_FILE = "data/accounts.json"
 # Mecanismo Mutex para evitar colisiones de hilos en transferencias simultáneas
 db_lock = threading.Lock()
 

@@ -1,0 +1,20 @@
+{
+    "ACC-001": {
+        "titular": "Carlos Mendoza",
+        "saldo": 500000.0,
+        "estado": "BLOQUEADA",
+        "historial": []
+    },
+    "ACC-002": {
+        "titular": "Ana Gomez",
+        "saldo": 12000.0,
+        "estado": "ACTIVA",
+        "historial": []
+    },
+    "ACC-003": {
+        "titular": "Juan Perez",
+        "saldo": 1000000.0,
+        "estado": "BLOQUEADA",
+        "historial": []
+    }
+}
