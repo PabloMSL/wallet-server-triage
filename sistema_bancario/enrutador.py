@@ -2,7 +2,7 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 from sistema_bancario.logica_servicio import WalletService
-from sistema_bancario.middleware import SecurityMiddleware
+from sistema_bancario.seguridad import SecurityMiddleware
 
 class SecureWalletAPI(BaseHTTPRequestHandler):
 
@@ -49,7 +49,7 @@ class SecureWalletAPI(BaseHTTPRequestHandler):
         # Endpoint protegido por el Middleware de seguridad
         elif path == "/api/v1/accounts/admin/bypass-status":
             if not SecurityMiddleware.is_authorized(self.headers):
-                return self._response({"error: "Acceso Denegado: Requiere Token de Administrador"}, 401)
+                return self._response({"error": "Acceso Denegado: Requiere Token de Administrador"}, 401)
 
             acc_id = payload.get("id")
             new_status = payload.get("status")
